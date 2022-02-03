@@ -1,11 +1,11 @@
-import { header } from 'data/data.header';
+// import { header } from 'data/data.header';
 import Link from 'next/link';
 import { useContext, useEffect, useState } from 'react';
 import { Nav } from './Nav/Nav';
 import { navItem } from 'data/data.header';
 import { CartContext } from 'pages/_app';
 
-export const Header = () => {
+export const Header = ({handleClick, navButton}) => {
   const { cart } = useContext(CartContext);
   const [promo, setPromo] = useState(true);
   const [fixedNav, setFixedNav] = useState(false);
@@ -43,11 +43,11 @@ export const Header = () => {
           <div className='header-logo'>
             <Link href='/'>
               <a>
-                <img src={header.logo} alt='' />
+                {/* <img src={header.logo} alt='' /> */} <span className="saint-text">Imran</span>
               </a>
             </Link>
           </div>
-          <div className='header-box'>
+          {navButton && <div className='header-box'>
             {/* Nav */}
             <Nav navItem={navItem} />
             {/* header options */}
@@ -82,9 +82,9 @@ export const Header = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div>}
 
-          <div className='btn-menu js-btn-menu'>
+          <div className='btn-menu js-btn-menu' onClick={handleClick}>
             {[1, 2, 3].map((i) => (
               <span key={i}>&nbsp;</span>
             ))}
