@@ -32,7 +32,7 @@ export const Footer = () => {
             <div className='footer-top__logo'>
               <Link href='/'>
                 <a>
-                  <img src={footerLogo} className='js-img' alt='' />
+                  {/* <img src={footerLogo} className='js-img' alt='' /> */} <span className="saint-text">Imran</span>
                 </a>
               </Link>
             </div>
@@ -64,13 +64,13 @@ export const Footer = () => {
                 <li>
                   <i className='icon-smartphone'></i>
                   <div className='footer-nav__col-phones'>
-                    <a href='tel:+13459971345'>+1 345 99 71 345</a>
-                    <a href='tel:+13457464975'>+1 345 74 64 975</a>
+                    <a href='tel:+13459971345'>+91 8097322537</a>
+                    <a href='tel:+13457464975'>+91 7039265453</a>
                   </div>
                 </li>
                 <li>
                   <i className='icon-mail'></i>
-                  <a href='mailto:info@beshop.com'>info@beshop.com</a>
+                  <a href='https://mail.google.com/' target="_blank" rel="noopener noreferrer">sayyedeman59@gmail.com</a>
                 </li>
               </ul>
             </div>
