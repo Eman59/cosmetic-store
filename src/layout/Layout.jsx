@@ -1,7 +1,7 @@
 import { Header } from '../components/shared/Header/Header';
 import { Insta } from 'components/shared/Insta/Insta';
 import { Footer } from 'components/shared/Footer/Footer';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import useWindowDimensions from 'components/utils/useWindowDimensions';
 
 export const Layout = ({ children }) => {

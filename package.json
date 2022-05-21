@@ -1,5 +1,5 @@
 {
-  "name": "beshop",
+  "name": "cosmetic-shop",
   "private": true,
   "scripts": {
     "dev": "next",
@@ -7,10 +7,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@svgr/webpack": "^6.2.1",
     "next": "12.0.4",
     "rc-slider": "^9.7.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.1.0",
+    "react-dom": "18.1.0",
     "react-dropdown": "^1.9.2",
     "react-rating-stars-component": "^2.2.0",
     "react-simple-star-rating": "^4.0.0",
