@@ -58,19 +58,17 @@ export const Footer = () => {
               <span className='footer-nav__col-title'>Contact</span>
               <ul>
                 <li>
-                  <i className='icon-map-pin'></i> 27 Division St, New York, NY
-                  10002, USA
+                  <i className='icon-map-pin'></i> 90 FT Road, Sakinaka, Mumbai
                 </li>
                 <li>
                   <i className='icon-smartphone'></i>
                   <div className='footer-nav__col-phones'>
                     <a href='tel:8097322537'>8097322537</a>
-                    <a href='tel:7039265453'>7039265453</a>
                   </div>
                 </li>
                 <li>
                   <i className='icon-mail'></i>
-                  <a href='https://mail.google.com/' target="_blank" rel="noopener noreferrer">sayyedeman59</a>
+                  <a href='https://mail.google.com/' target="_blank" rel="noopener noreferrer">sayyedeman59@gmail.com</a>
                 </li>
               </ul>
             </div>
