@@ -9,8 +9,6 @@
   "dependencies": {
     "@svgr/webpack": "^6.2.1",
     "next": "12.0.4",
-    "preact": "^10.7.2",
-    "preact-compat": "^3.19.0",
     "rc-slider": "^9.7.4",
     "react": "^18.1.0",
     "react-dom": "18.1.0",
