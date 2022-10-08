@@ -74,7 +74,7 @@ export const Footer = () => {
             </div>
           </div>
           <div className='footer-copy'>
-            <span>&copy; All rights reserved. BeShop 2020</span>
+            <span>&copy; All rights reserved. Imran 1999</span>
           </div>
         </div>
       </footer>
