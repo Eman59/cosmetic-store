@@ -156,9 +156,9 @@ footer {
               a {
                 display: block;
                 color: #ffffff;
-                font-size: 20px;
+                font-size: 16px;
                 margin-bottom: 8px;
-                line-height: normal;
+                line-height: inherit;
                 &:hover {
                   opacity: 0.8;
                 }
@@ -232,6 +232,7 @@ footer {
   .footer-nav__col ul li a,
   .footer-copy {
     font-size: 15px;
+    overflow-wrap: anywhere;
   }
   .footer-nav__col:last-of-type ul li .footer-nav__col-phones a {
     font-size: 15px;

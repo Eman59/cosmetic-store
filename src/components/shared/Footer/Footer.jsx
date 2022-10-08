@@ -63,12 +63,12 @@ export const Footer = () => {
                 <li>
                   <i className='icon-smartphone'></i>
                   <div className='footer-nav__col-phones'>
-                    <a href='tel:8097322537'>8097322537</a>
+                    <a href='tel:8097322537'>+91 8097322537</a>
                   </div>
                 </li>
                 <li>
                   <i className='icon-mail'></i>
-                  <a href='https://mail.google.com/' target="_blank" rel="noopener noreferrer">sayyedeman59</a>
+                  <a href='https://mail.google.com/' target="_blank" rel="noopener noreferrer">sayyedeman59@gmail.com</a>
                 </li>
               </ul>
             </div>
